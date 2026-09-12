@@ -106,7 +106,7 @@ function SiloBody({
 
 export function Silos() {
   const time = useSimStore((s) => s.time);
-  const cut = envAt(time).cutaway > 0.4;
+  const cut = true;   // forțat
 
   return (
     <group>
